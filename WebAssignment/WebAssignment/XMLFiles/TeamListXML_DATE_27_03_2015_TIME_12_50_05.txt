@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ArrayOfTeamInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TeamInfo>
+    <MemberID>123123</MemberID>
+    <UserID>10201</UserID>
+    <FirstName>Alex</FirstName>
+    <LastName>Smith</LastName>
+    <DOB>1980-01-02T00:00:00</DOB>
+    <About>Alex is part of the Admin team.</About>
+    <Email>alex@dotnet.ie</Email>
+    <Phone>0871234567</Phone>
+    <Address1>12 Dame St</Address1>
+    <Address2>Dublin 2</Address2>
+    <City>Dublin</City>
+  </TeamInfo>
+  <TeamInfo>
+    <MemberID>123124</MemberID>
+    <UserID>10202</UserID>
+    <FirstName>Emma</FirstName>
+    <LastName>Black</LastName>
+    <DOB>1987-07-29T00:00:00</DOB>
+    <About>Emma is part of the Admin team.</About>
+    <Email>emma@dotnet.ie</Email>
+    <Phone>0871231231</Phone>
+    <Address1>1 Quays Ave</Address1>
+    <Address2>Dublin 1</Address2>
+    <City>Dublin</City>
+  </TeamInfo>
+  <TeamInfo>
+    <MemberID>123125</MemberID>
+    <UserID>10203</UserID>
+    <FirstName>Sam</FirstName>
+    <LastName>Jones</LastName>
+    <DOB>1985-04-01T00:00:00</DOB>
+    <About>Same has been a coach for the last 20 years.</About>
+    <Email>sam@dotnet.ie</Email>
+    <Phone>0867897897</Phone>
+    <Address1>The Grand Lodge</Address1>
+    <Address2>Rathoath</Address2>
+    <City>Meath</City>
+  </TeamInfo>
+  <TeamInfo>
+    <MemberID>123126</MemberID>
+    <UserID>10204</UserID>
+    <FirstName>Lionel</FirstName>
+    <LastName>Messi</LastName>
+    <DOB>1987-06-24T00:00:00</DOB>
+    <About>Lionel Andrés Messi Cuccittini is an Argentine professional footballer. He is a forward and serves as captain for Argentina.</About>
+    <Email>messi@dotnet.ie</Email>
+    <Phone>085456456</Phone>
+    <Address1>123 Barcelona St</Address1>
+    <Address2>Dublin 12</Address2>
+    <City>Dublin</City>
+  </TeamInfo>
+  <TeamInfo>
+    <MemberID>123127</MemberID>
+    <UserID>10205</UserID>
+    <FirstName>George</FirstName>
+    <LastName>Best</LastName>
+    <DOB>1987-06-24T00:00:00</DOB>
+    <About> George Best was a Northern Irish footballer who played as a winger for Manchester United and the Northern Ireland national team.</About>
+    <Email>george@dotnet.ie</Email>
+    <Phone>085456456</Phone>
+    <Address1>12 Barna St</Address1>
+    <Address2>Dublin 52</Address2>
+    <City>Dublin</City>
+  </TeamInfo>
+  <TeamInfo>
+    <MemberID>123128</MemberID>
+    <UserID>10206</UserID>
+    <FirstName>Cristiano</FirstName>
+    <LastName>Ronaldo</LastName>
+    <DOB>1977-06-21T00:00:00</DOB>
+    <About> Cristiano Ronaldo dos Santos Aveiro, GOIH, known as Cristiano Ronaldo, is a Portuguese professional footballer.</About>
+    <Email>cris@dotnet.ie</Email>
+    <Phone>085456456</Phone>
+    <Address1>75 Okland St</Address1>
+    <Address2>Dublin 12</Address2>
+    <City>Dublin</City>
+  </TeamInfo>
+  <TeamInfo>
+    <MemberID>123129</MemberID>
+    <UserID>10207</UserID>
+    <FirstName>John</FirstName>
+    <LastName>Rowley</LastName>
+    <DOB>1992-01-01T00:00:00</DOB>
+    <About> C# .net Developer, Experienced Web Development Trainer (PHP, SQL, Javascript, .NET (C#), Zend Certified PHP Developer</About>
+    <Email>cris@dotnet.ie</Email>
+    <Phone>085456456</Phone>
+    <Address1>75 Okland St</Address1>
+    <Address2>Dublin 12</Address2>
+    <City>Dublin</City>
+  </TeamInfo>
+</ArrayOfTeamInfo>

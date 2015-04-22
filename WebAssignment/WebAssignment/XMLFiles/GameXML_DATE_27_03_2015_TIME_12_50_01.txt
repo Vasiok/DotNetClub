@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ArrayOfGameResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GameResult>
+    <GameID>1</GameID>
+    <HomeTeam>DotNet FC</HomeTeam>
+    <AwayTeam>UCD FC</AwayTeam>
+    <ScoreHome>5</ScoreHome>
+    <ScoreAway>2</ScoreAway>
+    <MatchDate>2015-01-03T00:00:00</MatchDate>
+  </GameResult>
+  <GameResult>
+    <GameID>2</GameID>
+    <HomeTeam>DBC FC</HomeTeam>
+    <AwayTeam>DotNet FC</AwayTeam>
+    <ScoreHome>1</ScoreHome>
+    <ScoreAway>1</ScoreAway>
+    <MatchDate>2015-01-10T00:00:00</MatchDate>
+  </GameResult>
+  <GameResult>
+    <GameID>3</GameID>
+    <HomeTeam>UCD FC</HomeTeam>
+    <AwayTeam>DotNet FC</AwayTeam>
+    <ScoreHome>0</ScoreHome>
+    <ScoreAway>4</ScoreAway>
+    <MatchDate>2015-01-17T00:00:00</MatchDate>
+  </GameResult>
+  <GameResult>
+    <GameID>4</GameID>
+    <HomeTeam>DotNet FC</HomeTeam>
+    <AwayTeam>DBS FC</AwayTeam>
+    <ScoreHome>2</ScoreHome>
+    <ScoreAway>1</ScoreAway>
+    <MatchDate>2015-01-24T00:00:00</MatchDate>
+  </GameResult>
+  <GameResult>
+    <GameID>5</GameID>
+    <HomeTeam>DotNet FC</HomeTeam>
+    <AwayTeam>DollyMount FC</AwayTeam>
+    <ScoreHome>3</ScoreHome>
+    <ScoreAway>2</ScoreAway>
+    <MatchDate>2015-01-31T00:00:00</MatchDate>
+  </GameResult>
+</ArrayOfGameResult>

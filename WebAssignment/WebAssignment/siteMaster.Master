@@ -1,0 +1,179 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="siteMaster.master.cs" Inherits="WebAssignment.siteMaster" %>
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>
+        <asp:ContentPlaceHolder id="TitlePlaceHolder" runat="server">
+         ***PLACE HOLDER TITLE***
+        </asp:ContentPlaceHolder>
+    </title>
+    <!-- meta description for SEO -->
+    <meta charset="UTF-8">
+    <asp:ContentPlaceHolder id="MetaDescriptionPlaceHolder" runat="server"> </asp:ContentPlaceHolder>
+    <!-- link to Bootstrap css -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- own stylesheet css -->
+    <link href="Content/style.css" rel="stylesheet" />
+    <!-- adding reset.css -->
+    <link href="Content/reset.css" rel="stylesheet" /> 
+    <!-- adding favicon -->
+    <link rel="icon" href="favicon.ico" /> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <!-- JS for JSON -->
+    <script src="Scripts/OurScripts.js"></script>
+</head>
+
+<body>
+    <form id="form1" runat="server">
+
+        <!-- personal wrapper for background colour -->
+        <div class="wrapper">
+            <div class="headerrow">
+                <div class="row">
+                    <div class="col-md-12">
+                        <img src="Images/logo.jpg" alt="logo" />
+                    </div> <!-- /end col-md-12 -->
+                </div> <!-- /end row -->
+            </div> <!-- /end headerrow -->
+        
+        <!-- container around content -->
+
+        <div class="container">
+              
+            <!--*********************** Nav Bar **********************************-->
+            <nav class="navbar navbar-default">
+              <div class="container-fluid">
+    
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                    <asp:ContentPlaceHolder id="NavPlaceHolder" runat="server">
+                        <!-- Content taken from each web page - for class="active" to take effect -->
+                    </asp:ContentPlaceHolder>
+                  </ul>
+                    <!--**** We can add a search option later ****-->
+                  <%--<form class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                  </form>--%>
+                  <ul class="nav navbar-nav navbar-right">
+                      <asp:ContentPlaceHolder id="LoginPlaceHolder" runat="server">
+                        <!-- Content taken from each web page - for class="active" to take effect
+                            <li><a href="Login.aspx">Login</a></li> -->
+                      </asp:ContentPlaceHolder>
+                  </ul>
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+            </nav>
+            <!--********************** End Nav Bar ***********************************-->
+            <!-- 2nd row -->
+            <div class="row">
+                <!-- side bar -->
+                <div class="col-md-3">
+                    <div class="sideBar">
+                    <asp:ContentPlaceHolder id="SideBarPlaceHolder" runat="server">
+                        ***PLACE HOLDER SIDE BAR***
+                    </asp:ContentPlaceHolder>
+                    
+                         <div class="row"> 
+                            <div class="bs-example">
+                                <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+    	                            <!-- Carousel indicators -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                                    </ol>   
+                                   <!-- Carousel items -->
+                                    <div class="carousel-inner">
+                                        <div class="active item">
+                                            <h2>Recent Match Results</h2>
+                                             <div class="carousel-caption">
+                                              <p><asp:Label ID="lblSliderTitle1" runat="server"></asp:Label></p>
+                                              <p><asp:Label ID="lblSliderResult1" runat="server"></asp:Label></p>
+                                              <p><asp:Label ID="lblSliderDate1" runat="server"></asp:Label></p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <h2>Recent Match Results</h2>
+                                            <div class="carousel-caption">
+                                              <p><asp:Label ID="lblSliderTitle2" runat="server"></asp:Label></p>
+                                              <p><asp:Label ID="lblSliderResult2" runat="server"></asp:Label></p>
+                                              <p><asp:Label ID="lblSliderDate2" runat="server"></asp:Label></p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <h2>Recent Match Results</h2>
+                                            <<div class="carousel-caption">
+                                              <p><asp:Label ID="lblSliderTitle3" runat="server"></asp:Label></p>
+                                              <p><asp:Label ID="lblSliderResult3" runat="server"></asp:Label></p>
+                                              <p><asp:Label ID="lblSliderDate3" runat="server"></asp:Label></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Carousel nav -->
+                                    <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                                        <span class="glyphicon glyphicon-chevron-left"></span>
+                                    </a>
+                                    <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right"></span>
+                                    </a>
+                                    </div><!-- end caroseul-->
+                                </div>
+                            </div> <!-- end row-->
+                    </div> <!-- end sideBar -->
+                </div> <!-- end col-md-3 -->
+
+                <!-- main content -->
+                <div class="col-md-9">
+                    <div class="mainContent">
+                        <asp:ContentPlaceHolder id="MainContentPlaceHolder" runat="server">
+                        ***PLACE HOLDER MAIN CONTENT***
+                        </asp:ContentPlaceHolder>
+                    </div> <!-- end mainContent-->
+                </div> <!-- end col-md-9 -->
+            </div> <!-- end row 2 -->
+            
+            <!-- footer -->
+            <div class="panel-footer">
+                <img src="Images/soccer-ball.png" alt="small logo" />
+                <ul class="address">
+					<li class="footer-label">DOT NET <span class="underline">FOOTBALL CLUB</span></li>
+					<li>13-14 Aungier Street</li>
+					<li>Dublin 2</li>
+					<li><a href="mailto:info@dotnetfbc.ie">info@dotnetfbc.ie</a></li>
+					<li><a href="tel:01417500">Ph (01) 417 7500</a></li>
+				</ul> 
+				<ul class="informed">
+					<li class="footer-label">STAY <span class="underline">INFORMED</span></li>
+					<li onclick="emailFunction()"><a>Sign up to Our Newsletter</a></li>
+				</ul>
+				<ul class="connected">
+					<li class="footer-label">STAY <span class="underline">CONNECTED</span></li>
+					<li><a href="https://www.facebook.com/" target="_blank" >Facebook</a></li>
+					<li><a href="https://www.twitter.com/" target="_blank" >Twitter</a></li>
+					<li><a href="https://www.pintrest.com/" target="_blank" >Pintrest</a></li>
+				</ul>
+				<ul class="second-nav">
+					<li class="footer-label">STAY <span class="underline">STRONG</span></li>
+                    <li><a href="Default.aspx">Home</a></li>
+					<li><a href="AboutUs.aspx">About Us</a></li>
+                    <li><a href="ContactUs.aspx">Contact Us</a></li>
+                    <li><a href="SiteMap.aspx">Site Map</a></li>
+				</ul> 
+            <p>Dot Net Football Club &copy; 2015. All Rights Reserved.</p>
+            <p>The content of this website, such as graphics, images, text and all other materials, is provided for reference and educational purposes only.</p>
+            </div> <!-- / end footer -->
+            
+        </div> <!-- / end container -->
+        </div> <!-- / end wrapper -->
+    </form>
+</body>
+</html>
+

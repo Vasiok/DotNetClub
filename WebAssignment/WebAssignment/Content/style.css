@@ -1,0 +1,421 @@
+﻿#memberDetails{    
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:10%;
+}
+
+#displayJson th {
+    background-color: #789BD1;
+}
+
+#displayJson {
+
+    width:97%;    
+}
+
+#pickerPlaceholder {
+    margin-bottom:20px;
+}
+
+    /************************
+    ***  Main page slider ***
+    *************************/
+#sliderMain {                                 
+   /*border-radius: 20px !important;*/         
+   padding:0;
+   /*border:1px solid black;*/
+}
+
+#mainSlidesContainer img {       
+    width:100%;
+    height:500px;
+    margin: 0 auto;     
+    border-radius: 10px;                
+}
+
+/*#sliderImagesContainer {
+    margin: 0 auto;    
+    width: 100%;    
+}*/
+
+#myCarousel {
+    margin: 0 auto;    
+    width: 100%;
+    position:relative;
+    border-radius: 10px !important;        
+}
+
+
+#mainSlidesContainer {
+    margin: 0 auto;
+    width: 100%;                
+}
+
+#leftControl {    
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;    
+}
+
+#rightControl {
+    border-bottom-right-radius:10px;
+    border-top-right-radius: 10px;    
+}
+
+#sliderImagesContainer .item {
+
+    height:500px !important;   
+    border-radius: 10px !important;                         
+}
+
+
+
+/*End of slider*/
+
+
+.headerrow {
+    text-align: center;
+    background-image: url('../Images/background.jpg');
+    background-repeat: repeat-x;
+}
+
+.container,
+.wrapper {
+    background-color: #789BD1;
+}
+
+.sideBar, .mainContent {
+    background-color: #A7BEE7;
+    margin-bottom: 20px;    
+}
+
+.mainContent {
+    border-radius:10px;    
+}
+
+/* footer edits*/
+.panel-footer .address {
+	margin-left: 25%; 
+	float: left;
+	width: 150px;
+}
+
+.panel-footer .informed, 
+.panel-footer .connected, 
+.panel-footer .second-nav {
+    float: left;
+    width: 100px;
+} 
+
+.panel-footer p {
+	clear: both;
+	text-align: center;
+	font-size: 75%;
+	padding-top: 10px;
+	/* setting text to complamentary blue */
+	color: rgb(54, 94, 157);
+}
+
+.panel-footer ul {
+    /* setting text to complamentary blue */
+    color: rgb(54, 94, 157); /*take away bullet points*/
+    list-style-type: none;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.panel-footer ul .footer-label {
+	font-weight: bold;
+	padding-bottom: 10px; 
+}
+
+.panel-footer ul li a{
+	text-decoration: none;
+	/* setting text to complamentary blue */
+	color: rgb(54, 94, 157);
+}
+
+.panel-footer li a:hover {
+	font-weight: bold;
+	/* setting text to complamentary purple*/
+	color: rgb(77, 60, 164);
+}
+
+.panel-footer .underline {
+    /* setting underline to complamentary blue */
+    border-color: #365E9D;
+    border-bottom-style: solid;
+    border-width: 3px;
+    margin-bottom: 10px;
+}
+
+.panel-footer img {
+    position: absolute;
+    margin-left: 7%;
+    margin-top: -5px;
+}
+/* end footer edits */
+
+/* submit button edits */
+.EmmasButton {
+    margin-left: 20px;
+    background-color: rgb(45,79,143);
+    color: white;
+}
+/* end submit button edits */
+.adminDgv {
+    width: 80%;
+    margin-left: 20px;
+}
+#divLblName, #divLblPosition, #divLblAbout {
+    padding-bottom:10px;
+}
+/* end submit button edits */
+
+/* Carosel css*/
+h2{
+    margin: 0;     
+    color: #666;
+    padding-top: 90px;
+    font-size: 52px;
+    font-family: "trebuchet ms", sans-serif;    
+}
+.item{
+    background: #333;    
+    text-align: center;
+    height: 150px !important;
+}
+.carousel{
+    margin-top: 20px;
+}
+.bs-example{
+	margin: 20px;
+}
+/* end Carosel css*/
+
+/* side bar edits*/
+.sidebar-css ul {
+    /* setting text to complamentary blue */
+    color: rgb(54, 94, 157); /*take away bullet points*/
+    list-style-type: none;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.sidebar-css ul li a{
+	text-decoration: none;
+	/* setting text to complamentary blue */
+	color: rgb(54, 94, 157);
+}
+
+.sidebar-css li a:hover {
+	font-weight: bold;
+	/* setting text to complamentary purple*/
+	color: rgb(77, 60, 164);
+}
+
+.sidebar-css .underline {
+    /* setting underline to complamentary blue */
+    border-color: #365E9D;
+    border-bottom-style: solid;
+    border-width: 3px;
+    margin-bottom: 10px;
+}
+
+.sidebar-css ul .sidebar-label {
+	font-weight: bold;
+    padding-top: 5px;
+	padding-bottom: 10px; 
+}
+ /*end side bar edits
+
+
+/* pitch location edits*/
+#pitch_location {
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* end pitch location edits*/
+
+/* weather RSS edits*/
+#weatherRss {
+    margin-top: 5px;
+    margin-left: 7px;
+    margin-bottom: 5px;
+}
+/* end weather RSS edits*/
+
+/***Main page results***/
+#resultsPageResults {
+    margin-left:10px;
+    margin-right:10px;
+}
+
+#resultsPageFixtures {
+    margin-left:10px;
+    margin-right:10px;
+}
+
+#defaultGird .table{
+    table-layout:fixed;
+    width: 100%;
+    font-size:13px;
+    margin-left:0.5px;
+    margin-right:0.5px;
+}
+
+#defaultGird {
+    padding-top:10px;
+}
+/***END OF Main page results***/
+
+
+
+/** MAIN PAGE PLAYER **/
+#playerContainer {
+
+    margin: 0 auto;
+}
+
+#memberDetailsDefaultPage {    
+    margin: 0 auto !important;
+    padding-bottom:10px;
+}
+
+#playerImageDefault {
+    padding-top:10px;
+    margin: 0 auto;
+}
+
+
+#rssContainerDefault {
+    margin:0 auto;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+#timesSide {
+    margin: 0 auto;
+    padding-top:50px;
+    padding-bottom:30px;
+    font-size:large;
+}
+
+    #timesSide h2 {
+
+        padding-bottom:10px;
+    }
+
+/* code of ethics edits */
+.codeofethics {
+    margin: 15px;
+}
+
+.codeofethics p {
+    font-size: 120%;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.codeofethics li {
+    margin-left: 15px;
+    margin-bottom: 3px;
+}
+/* end code of ethics edits */
+
+/* privacy policy edits*/
+#pPolicy {
+    margin: 15px;
+}
+
+#pPolicy h1 {
+    font-size: 120%;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#pPolicy h2 {
+    font-size: 110%;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#pPolicy h3 {
+    font-size: 105%;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#pPolicy p {
+    margin:5px;
+}
+
+/* end privacy policy edits*/
+
+/* soccer ireland edits*/
+#soccerIreland {
+    margin-left: 26%;
+    padding-bottom:10px;
+}
+
+#soccerIreland p {
+    margin: 5px;
+    font-weight: bold;
+}
+/* end soccer ireland edits*/
+
+/* pitch address edits*/
+.pitchAddress {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30%;
+}
+
+.pitchAddress .pitchTitle {
+    font-size: 110%;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+/* end pitch address edits*/
+
+/* edits for styling main content */
+.moveInEmma {
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.moveInEmma h1{
+    font-size: 110%;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+/* end edits for styling main content */
+
+/* extra length, to ensure footer on bottom of screen */
+.extraLength {
+    min-height: 300px;
+}
+/* end extra length, to ensure footer on bottom of screen */
+
+
+/******************************
+**** Results and fixtures *****      
+******************************/
+
+#coachEditArea {
+    border:1px solid black;
+}
+
+
+#adminDgv label{
+    padding:0;
+    margin:0;
+}
+
+
+
+#resultsPageFixtures {
+    margin-bottom: 40px;
+}
